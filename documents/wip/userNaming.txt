@@ -166,6 +166,7 @@ _oneadmin   -> 4294967293  (system user for openNebula)
 _openstack  -> 4294967292
 _cloudstack -> 4294967291
 _eucalyptus -> 4294967290
+_ceph       -> 4294967289
 
 Using the proposed "_" prefix for the proposed IDs for the cloud frameworks.
 
