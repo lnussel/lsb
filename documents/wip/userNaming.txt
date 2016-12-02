@@ -159,13 +159,13 @@ penetration of NFSv4 may not be sufficiently high to eliminate this need. In
 an HA fail over environment the potential change in UID of the user on one
 machine and another UID on the fail over machine may not be tolerated. It is
 therefore proposed that the created system users for the cloud frameworks
-be assigned consistent user IDs across distributions start with 99 and working
-down, the order is not of material interest.
+be assigned consistent user IDs across distributions start with 4294967293 and
+working down, the order is not of material interest.
 
-_oneadmin   -> 60001  (system user for openNebula)
-_openstack  -> 60002
-_cloudstack -> 60003
-_eucalyptus -> 60004
+_oneadmin   -> 4294967293  (system user for openNebula)
+_openstack  -> 4294967292
+_cloudstack -> 4294967291
+_eucalyptus -> 4294967290
 
 Using the proposed "_" prefix for the proposed IDs for the cloud frameworks.
 
